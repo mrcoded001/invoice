@@ -1,0 +1,174 @@
+.sideNav {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    /*height: 100%*/;
+    height: 100vh;
+    background: #1F282F;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+    color: #fff;
+}
+/*button that trigger the Side navigation*/
+.mobile-btn button{
+    outline: none;
+    border:none;
+    color: #fff;
+    background: none;
+    font-size: 25px;
+    display: none;
+}
+
+/* Hide sidebar by sliding it out of view */
+@media (max-width: 992px) {
+    .sideNav {
+        transform: translateX(-100%); /* off-screen */
+    }
+
+    .sideNav.active {
+        transform: translateX(0); /* slide into view */
+    }
+
+    .mobile-btn button {
+        display: flex;
+    }
+
+    .page-overall {
+        padding-left: 10px;
+    }
+
+    .bar-status {
+        display: none;
+    }
+}
+.side-inner{
+    width: 100%;
+    height: 50px;
+    /*background: brown;*/
+    padding: 15px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.sideNav a{
+    text-decoration: none;
+    color: #d5d5d5;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.side-inner:hover{
+    background: #2C393F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-links{
+    width: 100%;
+    height: auto;
+    /*padding-top: 30px;*/
+    display: flex;
+    flex-direction: column;
+}
+.left-links a{
+    text-decoration: none;
+    /*color: #363CEF;*/
+    color: #333
+}
+.left-links a:hover{
+    background: #363CEF;
+    color: #fff;
+}
+.left-links i{
+    font-size: 22px;
+}
+.left-links label{
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.right-single-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #f2f2f2;
+    /*border-bottom: 2px solid #d5d5d5;*/
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /*background: green*/
+}
+
+
+.page-overall{
+    width: 100%;
+    height: 90vh;
+    padding-left: 220px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+
+
+.the-logo{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2C393F;
+    gap: 15px;
+    cursor: pointer;
+}
+.the-logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+.the-logo span{
+    font-size: 16px;
+    font-weight: bold
+}
+.nav-links{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    overflow-y: hidden;
+    transition: height 0.5s;
+}
+.nav-links.active{
+    height: 0;
+    transition: height 0.5s;
+}
+.segment{
+    width: 100%;
+    height:0;
+    z-index: 9;
+    background: #1F282F;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow-y: hidden;
+    transition: height 0.5s;
+    gap:15px;
+}
+.segment.active{
+    height: 70px;
+    padding-left: 50px;
+}

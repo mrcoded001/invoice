@@ -1,0 +1,70 @@
+.success{ 
+    background: #388E71;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.success:hover { 
+    background: #2e735c;
+    transform: scale(1.05); /* Slightly zooms in */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.primary{ 
+    background: #2C76B5;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.primary:hover {
+    background: #255f91;
+    transform: scale(1.05); /* Slightly zooms in */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.info{
+    background: #5E61A8;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.info:hover { 
+    background: #494c88;
+    transform: scale(1.05); /* Slightly zooms in */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.warning{ 
+    background: #FE9C13;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.warning:hover {
+    background: #d87f00;
+    transform: scale(1.05); /* Slightly zooms in */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.danger{ 
+    background: #E95937;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.danger:hover {
+    background: #c74628;
+    transform: scale(1.05); /* Slightly zooms in */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.notifications{ 
+    background: #FF5500;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.notifications:hover {
+    background: #cc4400;
+    transform: scale(1.05); /* Slightly zooms in */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.invoice { 
+    background: #008B8B;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.invoice:hover {
+    background: #006b6b;
+    transform: scale(1.05); /* Slightly zooms in */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

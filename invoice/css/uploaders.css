@@ -1,0 +1,113 @@
+.upload-wraps{
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uploads{
+  width: 200px;
+  position: relative;
+  margin-top: 40px;
+}
+.uploads img{
+  /*border: 8px solid #DCDCDC;*/
+  width: 100%;
+  height: 120px;
+}
+.uploads .rightRound{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to right, #B408E1, #850DE9, #363CEF);
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.uploads .leftRound{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: red;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.uploads .fa{
+  color: white;
+}
+.uploads input{
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+.uploads input::-webkit-file-upload-button, 
+.uploads input[type=submit]{
+  cursor: pointer;
+}
+
+
+/*The Editing image*/
+
+.uploads2{
+  width: 100%;
+  position: relative;
+  margin-top: 40px;
+}
+.uploads2 img{
+  /*border: 8px solid #DCDCDC;*/
+  width: 100%;
+  height: 170px;
+}
+.uploads2 .rightRound{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to right, #B408E1, #850DE9, #363CEF);
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.uploads2 .leftRound{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: red;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.uploads2 .fa{
+  color: white;
+}
+.uploads2 input{
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+.uploads2 input::-webkit-file-upload-button, 
+.uploads2 input[type=submit]{
+  cursor: pointer;
+}
